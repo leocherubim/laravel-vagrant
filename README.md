@@ -18,4 +18,4 @@ The Laravel the environment variables are already set to speed to maximum produc
 
 To test the application in vagrant server on the local server uses the host 0.0.0.0. Following is the complete command:
 
- $ php artisan serve host = 0.0.0.0 --port = 4000
+ $ php artisan serve --host=0.0.0.0 --port=4000
