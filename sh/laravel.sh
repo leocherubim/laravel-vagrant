@@ -52,3 +52,8 @@ chown -R vagrant:vagrant /home/vagrant/.composer
 
 # setting the Laravel environment variable
 echo PATH=\"\$HOME/.composer/vendor/bin/:\$PATH\" >> /home/vagrant/.profile
+
+# installing phpunit
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+mv phpunit.phar /usr/local/bin/phpunit
